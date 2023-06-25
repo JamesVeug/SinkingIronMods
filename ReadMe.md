@@ -1,4 +1,12 @@
-Mods for Sinking Iron. A game by Lixian
+![alt text](https://github.com/JamesVeug/SinkingIronMods/blob/master/example.png)
+
+
+# Mods
+- Endless Mode: Level never ends. See how far you can reach!
+- Water Pump: A button is added to toggle draining water out of the sub
+- Fire: Buttons now set on fire and need to be extinguished using the fire extinguisher. (Press 3 to equip)
+- Rubber Chicken: Replaces the hammer with a rubber chicken
+
 
 # How to Install
 - Install Sinking Iron: https://lixiangames.itch.io/sinking-iron
