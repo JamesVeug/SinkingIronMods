@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>SinkingIronMod2</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Audio">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Audio.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Core">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.UI">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Unlockables">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Unlockables.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Utils">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Utils.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="Sonity.Runtime">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Sonity.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AudioModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="chicken" />
+      <EmbeddedResource Include="chicken" />
+    </ItemGroup>
+
+</Project>

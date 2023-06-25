@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Core">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

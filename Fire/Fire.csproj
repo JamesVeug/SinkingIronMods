@@ -1,0 +1,137 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Audio">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Audio.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Core">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.UI">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Unlockables">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Unlockables.dll</HintPath>
+      </Reference>
+      <Reference Include="Lixian.Utils">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Lixian.Utils.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>..\..\Sinking Iron\MelonLoader\net35\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="Sonity.Runtime">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\Sonity.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AssetBundleModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AudioModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ImageConversionModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>..\..\Sinking Iron\Sinking Iron_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="fire" />
+      <EmbeddedResource Include="fire" />
+      <None Remove="firesprites\firesprites_1.png" />
+      <EmbeddedResource Include="firesprites\firesprites_1.png" />
+      <None Remove="firesprites\firesprites_2.png" />
+      <EmbeddedResource Include="firesprites\firesprites_2.png" />
+      <None Remove="firesprites\firesprites_3.png" />
+      <EmbeddedResource Include="firesprites\firesprites_3.png" />
+      <None Remove="firesprites\firesprites_4.png" />
+      <EmbeddedResource Include="firesprites\firesprites_4.png" />
+      <None Remove="firesprites\firesprites_5.png" />
+      <EmbeddedResource Include="firesprites\firesprites_5.png" />
+      <None Remove="firesprites\firesprites_6.png" />
+      <EmbeddedResource Include="firesprites\firesprites_6.png" />
+      <None Remove="firesprites\firesprites_7.png" />
+      <EmbeddedResource Include="firesprites\firesprites_7.png" />
+      <None Remove="firesprites\firesprites_8.png" />
+      <EmbeddedResource Include="firesprites\firesprites_8.png" />
+      <None Remove="firesprites\firesprites_9.png" />
+      <EmbeddedResource Include="firesprites\firesprites_9.png" />
+      <None Remove="firesprites\firesprites_10.png" />
+      <EmbeddedResource Include="firesprites\firesprites_10.png" />
+      <None Remove="firesprites\firesprites_11.png" />
+      <EmbeddedResource Include="firesprites\firesprites_11.png" />
+      <None Remove="firesprites\firesprites_12.png" />
+      <EmbeddedResource Include="firesprites\firesprites_12.png" />
+      <None Remove="firesprites\firesprites_13.png" />
+      <EmbeddedResource Include="firesprites\firesprites_13.png" />
+      <None Remove="firesprites\firesprites_14.png" />
+      <EmbeddedResource Include="firesprites\firesprites_14.png" />
+      <None Remove="firesprites\firesprites_15.png" />
+      <EmbeddedResource Include="firesprites\firesprites_15.png" />
+      <None Remove="firesprites\firesprites_16.png" />
+      <EmbeddedResource Include="firesprites\firesprites_16.png" />
+      <None Remove="firesprites\firesprites_17.png" />
+      <EmbeddedResource Include="firesprites\firesprites_17.png" />
+      <None Remove="firesprites\firesprites_18.png" />
+      <EmbeddedResource Include="firesprites\firesprites_18.png" />
+      <None Remove="firesprites\firesprites_19.png" />
+      <EmbeddedResource Include="firesprites\firesprites_19.png" />
+      <None Remove="firesprites\firesprites_20.png" />
+      <EmbeddedResource Include="firesprites\firesprites_20.png" />
+      <None Remove="firesprites\firesprites_21.png" />
+      <EmbeddedResource Include="firesprites\firesprites_21.png" />
+      <None Remove="firesprites\firesprites_22.png" />
+      <EmbeddedResource Include="firesprites\firesprites_22.png" />
+      <None Remove="firesprites\firesprites_23.png" />
+      <EmbeddedResource Include="firesprites\firesprites_23.png" />
+      <None Remove="firesprites\firesprites_24.png" />
+      <EmbeddedResource Include="firesprites\firesprites_24.png" />
+      <None Remove="firesprites\firesprites_25.png" />
+      <EmbeddedResource Include="firesprites\firesprites_25.png" />
+      <None Remove="firesprites\firesprites_26.png" />
+      <EmbeddedResource Include="firesprites\firesprites_26.png" />
+      <None Remove="firesprites\firesprites_27.png" />
+      <EmbeddedResource Include="firesprites\firesprites_27.png" />
+      <None Remove="firesprites\firesprites_28.png" />
+      <EmbeddedResource Include="firesprites\firesprites_28.png" />
+      <None Remove="firesprites\firesprites_29.png" />
+      <EmbeddedResource Include="firesprites\firesprites_29.png" />
+      <None Remove="firesprites\firesprites_30.png" />
+      <EmbeddedResource Include="firesprites\firesprites_30.png" />
+      <None Remove="firesprites\firesprites_31.png" />
+      <EmbeddedResource Include="firesprites\firesprites_31.png" />
+      <None Remove="firesprites\firesprites_32.png" />
+      <EmbeddedResource Include="firesprites\firesprites_32.png" />
+    </ItemGroup>
+
+</Project>
